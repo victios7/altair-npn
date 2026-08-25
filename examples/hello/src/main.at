@@ -1,0 +1,7 @@
+altair.doc;
+    name = "hello"
+    version = "1.0.0"
+create altair.doc
+fun greet -> text text name;
+    return "hola, " + name
+break

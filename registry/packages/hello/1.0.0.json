@@ -1,0 +1,12 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Minimal greeting helpers for Altair",
+  "main": "src/main.at",
+  "altair": ">=1.8.5",
+  "dist": {
+    "tarball": "https://victios7.github.io/altair-npn/registry/tarballs/hello-1.0.0.tar.gz",
+    "integrity": "sha256-f17a38318b534a2394463ac22d73ed8c245b809dbd359da362f5736da9e39f6b",
+    "bytes": 359
+  }
+}

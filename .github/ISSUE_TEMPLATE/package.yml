@@ -1,0 +1,15 @@
+name: Publicar paquete
+description: Añadir o actualizar un paquete en el registro
+title: "publish:nombre@1.0.0"
+labels: ["package"]
+body:
+  - type: markdown
+    attributes:
+      value: "Pega el bloque JSON del formulario web, o rellénalo a mano."
+  - type: textarea
+    id: payload
+    attributes:
+      label: JSON
+      render: json
+    validations:
+      required: true

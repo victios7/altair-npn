@@ -1,0 +1,12 @@
+{
+  "registry": "altair-npn",
+  "version": 1,
+  "base": "https://victios7.github.io/altair-npn/registry",
+  "packages": {
+    "hello": {
+      "description": "Minimal greeting helpers for Altair",
+      "versions": ["1.0.0"],
+      "latest": "1.0.0"
+    }
+  }
+}
